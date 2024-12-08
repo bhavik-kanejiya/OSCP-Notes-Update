@@ -71,8 +71,8 @@ sudo nmap -sU --top-ports 20 $IP -oN nmap-udp-top.txt --open -v
 `cd c:\Users` then
 `tree /F`
 
-<details>
-	<summary>Windows</summary>
+
+Windows
 ```powershell
 C:/Users/Administrator/NTUser.dat # Registry settings
 C:/Documents and Settings/Administrator/NTUser.dat # Registry settings
@@ -143,10 +143,9 @@ C:/Windows/System32/inetsrv/config/schema/ASPNET_schema.xml # ASP.NET schema
 C:/Windows/System32/inetsrv/config/applicationHost.config # IIS configuration
 C:/inetpub/logs/LogFiles/W3SVC1/u_ex[YYMMDD].log # IIS log files
 ```
-</details>
 
-<details>
-<summary>Linux</summary>
+
+Linux
 ```powershell
 /etc/passwd # User accounts
 /etc/shadow # Password hashes
@@ -420,7 +419,6 @@ C:/inetpub/logs/LogFiles/W3SVC1/u_ex[YYMMDD].log # IIS log files
 ~/.Xresources # X Window resources
 ~/.xsession # X Window session script
 ```
-</details>
 
 **Discovering KDBX files**
 1. In Windows
