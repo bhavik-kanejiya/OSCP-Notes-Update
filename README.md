@@ -142,13 +142,13 @@ C:/Program Files/MySQL/MySQL Server 5.1/my.ini # MySQL configuration
 C:/Windows/System32/inetsrv/config/schema/ASPNET_schema.xml # ASP.NET schema
 C:/Windows/System32/inetsrv/config/applicationHost.config # IIS configuration
 C:/inetpub/logs/LogFiles/W3SVC1/u_ex[YYMMDD].log # IIS log files
-    ```
+```
 </details>
 
 <details>
 <summary>Linux</summary>
-    ```powershell
-    /etc/passwd # User accounts
+```powershell
+/etc/passwd # User accounts
 /etc/shadow # Password hashes
 /etc/aliases # Email aliases
 /etc/anacrontab # Cron jobs
@@ -419,7 +419,7 @@ C:/inetpub/logs/LogFiles/W3SVC1/u_ex[YYMMDD].log # IIS log files
 ~/.xinitrc # X Window init script
 ~/.Xresources # X Window resources
 ~/.xsession # X Window session script
-    ```
+```
 </details>
 
 **Discovering KDBX files**
